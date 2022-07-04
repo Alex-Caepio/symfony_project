@@ -1,0 +1,9 @@
+doctrine:
+  dbal:
+    driver:  pdo_sqlite
+    memory:  true
+    charset: UTF8
+    host: localhost
+    dbname: test
+    user: api-user
+    password: api-user-password
